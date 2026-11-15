@@ -358,8 +358,8 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 }
 .materno__foto img {
   position: relative;
-  width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 40% 30%;
-  border-radius: 4px 4px 999px 999px;
+  width: 100%; aspect-ratio: 1; object-fit: cover; object-position: 42% 38%;
+  border-radius: 50%;
 }
 
 .materno__lotus { width: 52px; height: 52px; margin-bottom: 26px; }
@@ -522,6 +522,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   filter: saturate(.9);
   transition: filter .5s, transform .6s var(--ease);
 }
+.insta__grade img.insta__centro { object-position: 50% 50%; }
 .insta__grade img:hover { filter: saturate(1.05); transform: translateY(-6px); }
 
 /* ---------- Contato ---------- */
@@ -621,8 +622,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   .sobre__foto { max-width: 520px; margin-right: 24px; }
   .cuidados__fixo { position: static; }
   .cuidados__foto { display: none; }
-  .materno__foto { max-width: 440px; margin: 0 auto; width: 88%; }
-
+  .materno__foto { max-width: 400px; margin: 0 auto; width: 80%; }
   .passos__lista { grid-template-columns: 1fr; }
   .passos__lista li:nth-child(n) { margin-top: 0; }
 
