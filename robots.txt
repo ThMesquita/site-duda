@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dramariaeribeiro.com.br/sitemap.xml
